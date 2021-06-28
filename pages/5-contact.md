@@ -7,6 +7,8 @@ permalink: /contact/
 **Get in touch with us**
 ========================
 
+We would love to hear from you.
+
 <hr>
 
 <div class="row text-center">
