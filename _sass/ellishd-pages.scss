@@ -236,11 +236,7 @@ $header-unit-header-2-line-height: 4.4rem;
   transform: scaleX(1.1);
   transform-origin: 0;
   line-height: 120%;
-  color: $leadgrey;
-  strong {
-    font-weight: inherit;
-    color: $leaddark;
-  }
+  color: $leaddark;
   a {
     color: inherit;
     text-decoration: none;
