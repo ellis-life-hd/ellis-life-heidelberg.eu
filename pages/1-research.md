@@ -7,7 +7,7 @@ permalink: /research/
 **Learn about our research**
 ============================
 
-We are passionate about tackling the latest challenges in the application of Artificial Intelligence and Machine Learning in the life sciences. Enjoy this overview of our research objectives.
+We are passionate about tackling the latest challenges in the application of Artificial Intelligence and Machine Learning in the life sciences. 
 
 **Unsupervised / Semi-supervised / Self-supervised learning**  
 **Challenge:** to tackle the lack of training data  
