@@ -7,4 +7,7 @@ permalink: /career/
 **Work with us**
 ===================================
 
-Job posting
+Have we spiked your interest? We would love to hear from you. Drop us a line at the address below. 
+
+career@ellis-life-heidelberg.eu
+
