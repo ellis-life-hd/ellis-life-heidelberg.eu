@@ -1,20 +1,18 @@
 <div class="newest-post-wrapper container brand">
     {% for post in site.posts limit:1 %}
-        {% if post.date > site.time %}
-            <div class="newest-post">
-            	<a href="{{ post.url }}">
-            		<p class="news-new">NEW</p>
-            		<h1>{{ post.title }}</h1>
-            		{% if post.event_title %}
-                        <h2>{{ post.event_title }}</h2>
-                    {% else %}
-                        <h2>{{ post.excerpt }}</h2>
-                    {% endif %}
-            	</a>
-            </div>
-            <br>
-            <a class="decorate-link" href="/latest">All news & events</a>
-        {% endif %}
+        <div class="newest-post">
+            <a href="{{ post.url }}">
+                <p class="news-new">NEW</p>
+                <h1>{{ post.title }}</h1>
+                {% if post.event_title %}
+                    <h2>{{ post.event_title }}</h2>
+                {% else %}
+                    <h2>{{ post.excerpt }}</h2>
+                {% endif %}
+            </a>
+        </div>
+        <br>
+        <a class="decorate-link" href="/latest">All news & events</a>
     {% endfor %}
 </div>
 <br /><br /><br />
