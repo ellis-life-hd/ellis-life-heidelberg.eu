@@ -4,8 +4,10 @@ title: Latest
 permalink: /latest/
 ---
 
-**Follow our latest updates**
-=============================
+**Our latest**
+==============
+
+Don't miss our latest news and events
 
 {% for post in site.posts %}
 <div class="news-tile">
