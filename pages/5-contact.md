@@ -7,7 +7,7 @@ permalink: /contact/
 **Get in touch with us**
 ========================
 
-We would love to hear from you.
+## We would love to hear from you.
 
 <hr>
 
