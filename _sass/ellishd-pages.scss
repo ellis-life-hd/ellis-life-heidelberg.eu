@@ -364,7 +364,12 @@ $header-unit-header-2-line-height: 4.4rem;
       &:before {
         background-color: $unihdred;
       }
-    }      
+    }
+  }
+  .institute-caption {
+    font-weight: 500;
+    margin-top: 12px;
+    color: #333;
   }
 }
 
