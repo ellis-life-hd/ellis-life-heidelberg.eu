@@ -51,44 +51,44 @@
       </div>
     </header>
     <main role="main">
-        {{ content }}
-    </main>
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="footer-head">
-          <img src="/assets/img/logo-dark-50px.png" alt="Footer logo"><div class="flexline"></div>
-        </div>
-        <div class="footer-menu">
-          <div class="row">
-            <ul class="col-md-4 col-sm-12">
-              {%- for path in site.pages -%}
-              {%- if path.title -%}
-              <li>
-                  <a href="{{ path.url | relative_url }}">{{ path.title | escape }}</a>
-              </li>
-              {% assign remainder = forloop.index | modulo: 5 %}
-              {%- if remainder == 0 -%}
-            </ul>
-            <ul class="col-md-4 col-sm-12">
-              {%- endif -%}
-              {%- endif -%}
-              {%- endfor -%}
-              <li>
-                <a href="https://www.dkfz.de/en/data-privacy-protection.html?m=1569945172&">Data privacy</a>
-              </li>
-            </ul>
-            <ul class="col-md-4 col-sm-12">
-              <li><a href="https://www.embl.de/" target="_blank">EMBL</a></li>
-              <li><a href="https://www.dkfz.de/" target="_blank">DKFZ</a></li>
-              <li><a href="https://www.uni-heidelberg.de/" target="_blank">Heidelberg<br/>University</a></li>
-            </ul>
+      {{ content }}
+      <footer class="container-fluid">
+        <div class="container">
+          <div class="footer-head">
+            <img src="/assets/img/logo-dark-50px.png" alt="Footer logo"><div class="flexline"></div>
           </div>
+          <div class="footer-menu">
+            <div class="row">
+              <ul class="col-md-4 col-sm-12">
+                {%- for path in site.pages -%}
+                {%- if path.title -%}
+                <li>
+                    <a href="{{ path.url | relative_url }}">{{ path.title | escape }}</a>
+                </li>
+                {% assign remainder = forloop.index | modulo: 5 %}
+                {%- if remainder == 0 -%}
+              </ul>
+              <ul class="col-md-4 col-sm-12">
+                {%- endif -%}
+                {%- endif -%}
+                {%- endfor -%}
+                <li>
+                  <a href="https://www.dkfz.de/en/data-privacy-protection.html?m=1569945172&">Data privacy</a>
+                </li>
+              </ul>
+              <ul class="col-md-4 col-sm-12">
+                <li><a href="https://www.embl.de/" target="_blank">EMBL</a></li>
+                <li><a href="https://www.dkfz.de/" target="_blank">DKFZ</a></li>
+                <li><a href="https://www.uni-heidelberg.de/" target="_blank">Heidelberg<br/>University</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="text-center copyright">
+            &copy; 2021 German Cancer Research Center (DKFZ)
+          </p>
         </div>
-        <p class="text-center copyright">
-          &copy; 2021 German Cancer Research Center (DKFZ)
-        </p>
-      </div>
-    </footer>
+      </footer>
+    </main>
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>

@@ -15,8 +15,18 @@ header {
 
 main {
   background: white;
-  padding-bottom: 100px;
   overflow-x: hidden;
+  position: fixed;
+  top: 77px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  main {
+    top: 71px;
+  }
 }
 
 h1 {

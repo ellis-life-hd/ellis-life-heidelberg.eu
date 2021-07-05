@@ -1,7 +1,7 @@
 footer {
   background-color: #3c3838;
   color: white;
-  margin: 0;
+  margin: 100px 0 0 0;
   min-height: 300px;
   min-width: 100%;
   position: relative;
@@ -89,7 +89,8 @@ footer li {
 }
 
 footer .copyright {
-  margin: 5em 0;
+  padding: 5em 0;
+  margin-bottom: 0;
   font-size: 1em;
   opacity: .5;
   width: 100%;
