@@ -1,9 +1,14 @@
+header {
+  height: 77px;
+}
+
 .navbar-collapse {
   background-color: white;
 }
 
 .navbar {
   z-index: 99999;
+  border-bottom: 1px solid $lightgrey;
 }
 
 .navbar-brand {

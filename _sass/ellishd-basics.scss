@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -12,12 +11,12 @@ body {
 
 header {
   background: white;
-  border-bottom: 1px solid $lightgrey;
 }
 
 main {
   background: white;
   padding-bottom: 100px;
+  overflow-x: hidden;
 }
 
 h1 {
