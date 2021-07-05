@@ -8,7 +8,7 @@ headerimage: researchheader.png
 **Learn about our research**
 ============================
 
-We are passionate about tackling the latest challenges in the application of Artificial Intelligence and Machine Learning in the life sciences. 
+## We are passionate about tackling the latest challenges in the application of Artificial Intelligence and Machine Learning in the life sciences.
 
 **Unsupervised / Semi-supervised / Self-supervised learning**  
 **Challenge:** to tackle the lack of training data  
