@@ -2,6 +2,7 @@
 layout: default
 title: Research
 permalink: /research/
+headerimage: researchheader.png
 ---
 
 **Learn about our research**

@@ -2,6 +2,9 @@
 layout: skeleton
 ---
 
+{% if page.headerimage %}
+<img class="w-100" src="/assets/img/{{page.headerimage}}">
+{% endif %}
 <div class="container pt-5">
 {{ content }}
 </div>
