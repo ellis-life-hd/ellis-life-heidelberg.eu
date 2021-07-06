@@ -306,6 +306,18 @@ $header-unit-header-2-line-height: 4.4rem;
   }
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "sm")) {
+  #brand-mission-statement {
+    padding: 50px 0;
+    p {
+      font-size: 16pt * $shrink-factor-sm;
+    }
+    h2 {
+      font-size: 23pt * $shrink-factor-sm;
+    }
+  }
+}
+
 // Main page people / people page 
 .people-photowrap {
   border-radius: 1em;
