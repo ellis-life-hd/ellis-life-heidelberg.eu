@@ -2,6 +2,12 @@ header {
   height: 77px;
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  header {
+    height: 71px;
+  }
+}
+
 .navbar-collapse {
   background-color: white;
 }
