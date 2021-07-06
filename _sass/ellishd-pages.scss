@@ -264,6 +264,23 @@ $header-unit-header-2-line-height: 4.4rem;
   }
 }
 
+// Main page mission statement
+.brand-mission {
+  padding: 0;
+}
+
+#brand-mission-statement {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-color: $primary-bg;
+  p {
+    padding: 5vw 20vw;
+    font-weight: 500;
+    font-size: 16pt;
+  }
+}
+
 // Main page people / people page 
 .people-photowrap {
   border-radius: 1em;
