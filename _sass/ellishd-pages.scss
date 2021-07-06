@@ -280,15 +280,29 @@ $header-unit-header-2-line-height: 4.4rem;
 }
 
 #brand-mission-statement {
-  padding: 5vw 0;
+  padding: 100px 0;
   p {
     font-weight: 500;
     font-size: 16pt;
     text-align: justify;
     color: white;
+    margin: 0 30px;
   }
   h2 {
+    font-size: 23pt;
     color: white;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  #brand-mission-statement {
+    p {
+      font-size: 16pt * $shrink-factor;
+    }
+    h2 {
+      font-size: 23pt * $shrink-factor;
+    }
   }
 }
 
