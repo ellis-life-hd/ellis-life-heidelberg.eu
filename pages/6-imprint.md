@@ -31,8 +31,8 @@ Prof. Oliver Stegle, Head, Division of Computational Genomics and Systems Geneti
 
 **Copyright:**  
 The content, layout and graphics on this website are protected by copyright law.  
-© Deutsches Krebsforschungszentrum (DKFZ). All rights reserved.  
-Images of EMBL and Heidelberg University are shared with permission.
+© German Cancer Research Center (DKFZ). All rights reserved.  
+All acquired images and graphics are shared with permission.
 
 **Data Privacy Statement:**  
 [Click here](https://www.dkfz.de/en/data-privacy-protection.html?m=1569945172&)
