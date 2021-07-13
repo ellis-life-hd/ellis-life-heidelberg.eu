@@ -1,0 +1,15 @@
+<div class="newest-post-wrapper container brand">
+    {% for post in site.posts limit:1 %}
+        <div class="newest-post-chip">
+            <a href="{{ post.url }}">
+                {% if post.date > site.time %}
+                    <p class="news-new">NEW</p>
+                {% else %}
+                    <p class="news-new news-new-past">LATEST</p>
+                {% endif %}
+                <h1>{{ post.title }}</h1>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+<br /><br /><br />

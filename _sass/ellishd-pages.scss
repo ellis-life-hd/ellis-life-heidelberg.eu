@@ -18,29 +18,68 @@ $header-unit-header-2-line-height: 4.4rem;
 
 #header-main {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  // justify-content: center;
   width: map-get($grid-breakpoints, "xl");
-  height: 500px;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.35), rgba(0,0,0,0.3)),
-              url('/assets/img/brand-top-long.jpg') repeat-x center 77px fixed;
-  background-size: auto 550px;
+  // max-width: 90vw;
+  height: 800px;
+  max-height: 70vh;
+  margin: 3em auto;
+  // border-radius: 2em;
+  box-shadow: 0px 6px 6px 0 rgba(0, 0, 0, 0.3);
+  background-color: black;
+  background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.5), rgba(255,255,255,.2), rgba(255,255,255,.1), rgba(255,255,255,0)),
+              url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
+  // background-color: #FCB0B3;
+  // background-size: auto 550px;
   padding-bottom: 60px;
   #header-text {
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    color: $dark;
     text-align: center;
     margin: 0 auto;
-    .lead {
-      color: #fff;
-      transform-origin: 50%;
-      margin-bottom: 50px;
+    .top-lead {
+      font-variant-ligatures: none;
+      font-weight: 800;
+      padding: 0  5vw;
+      color: $primary;
+      background-image: 
+        // linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), 
+        // linear-gradient(90deg, #72DDF7 0%, #FCB0B3 25%, $primary 50%, $primary 60%, #E8DB7D 75%, #72DDF7);
+        linear-gradient(90deg, $primary, #8093F1, $primary, #72DDF7);
+      font-size: 5em;
+      margin-bottom: .2em;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent;
+
+      -webkit-text-stroke: 1px black;
     }
+    .top-sub {
+      font-size: 1.6em;
+      padding: 0 5vw;
+      text-shadow: 0 0 3px rgba(255,255,255,1.0);
+      font-weight: 400;
+    }
+  }
+}
+
+
+@media screen and (max-width: map-get($grid-breakpoints, "l")) {
+  #header-main {
+    background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.8), rgba(255,255,255,.5), rgba(255,255,255,.1)),
+              url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
   }
 }
 
 @media screen and (max-width: map-get($grid-breakpoints, "xl")) {
   #header-main {
     width: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.8), rgba(255,255,255,.5), rgba(255,255,255,.1)),
+              url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
   }
 }
 
@@ -113,6 +152,7 @@ $header-unit-header-2-line-height: 4.4rem;
   .newest-post {
     width: 100%;
     margin: 0 auto;
+    margin-top: 8em;
     padding: 0;
     border: 1px solid $primary;
     box-sizing: border-box;
@@ -161,6 +201,72 @@ $header-unit-header-2-line-height: 4.4rem;
   }
   .news-more {
     margin: 10px 0 0 10px;
+  }
+
+  .newest-post-chip {
+    background-color: rgba(255, 255, 255, 0.3);
+
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    a {
+      .news-new {
+        font-weight: 700;
+        font-size: .8em;
+        color: $primary;
+        margin: 0;
+        margin-right: 1em;
+        padding: .3em .5em;
+        line-height: 1.5;
+        background: rgba(250, 197, 224, .5);
+        border-radius: .5em;
+        display: inline;
+        transition: all .2s ease-in-out;
+        &.news-new-past {
+          color: $leadlightgrey;
+          background: rgba(255, 255, 255, 0.8);
+        }
+        vertical-align: middle;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #F0F0F0;
+        margin: 0;
+        
+        display: inline;
+        vertical-align: middle;
+        transition: all .2s ease-in-out;
+
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+      } 
+    
+      padding: 1.2em 2em;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        h1 {
+          color: white;
+        }
+        .news-new {
+          background: rgba(250, 197, 224, .65);
+
+          &.news-new-past {
+            background: rgba(255, 255, 255, 1.0);
+          }
+        }
+    }
   }
 }
 
@@ -281,7 +387,8 @@ $header-unit-header-2-line-height: 4.4rem;
 .brand-mission {
   margin: 10vh auto;
   width: 90vw;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2)), radial-gradient(circle at 100% 100%, #E8DB7D 3%, #B83374 40%, #8093F1 94%, #72DDF7);
+  max-width: 1800px;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), radial-gradient(circle at 100% 100%, #E8DB7D 3%, #B83374 40%, #8093F1 94%, #72DDF7);
   background-size: cover;
   border-radius: 2em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -289,13 +396,26 @@ $header-unit-header-2-line-height: 4.4rem;
 
 #brand-mission-statement {
   padding: 100px 0;
+  p, a {
+    margin: 0 30px;
+  }
   p {
+    color: white;
     font-weight: 500;
     font-size: 16pt;
     text-align: justify;
-    color: white;
-    margin: 0 30px;
-    text-shadow: $primary 0px 0px 1px;
+    text-shadow: $primary 0px 0px 1px; 
+  }
+  a {
+    display: inline-block;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    transition: all .2s ease-in-out;
+    &:hover {
+      color: rgba(255, 255, 255, 1.0);
+      border-bottom: 1px solid rgba(255, 255, 255, 1.0);
+    }
   }
   h2 {
     font-size: 2.2em;
@@ -345,7 +465,7 @@ $header-unit-header-2-line-height: 4.4rem;
     display: flex;
     align-items: center;
     height: 100%;
-    margin-left: 1vw;
+    margin-left: .5vw;
     color: $dark;
     p {
       margin: 0;

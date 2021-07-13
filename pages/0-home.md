@@ -10,7 +10,6 @@ carousels:
 
 {% include brand-top.html %}
 {% include brand-logos.html %}
-{% include news-shortlist.html %}
 {% include brand-mission.html %}
 {% include brand-people.html %}
 {% include brand-institutes.html %}
