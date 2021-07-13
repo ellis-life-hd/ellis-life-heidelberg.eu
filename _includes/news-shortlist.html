@@ -2,7 +2,11 @@
     {% for post in site.posts limit:1 %}
         <div class="newest-post">
             <a href="{{ post.url }}">
-                <p class="news-new">NEW</p>
+                {% if post.date > site.time %}
+                    <p class="news-new">NEW</p>
+                {% else %}
+                    <p class="news-new news-new-past">LATEST</p>
+                {% endif %}
                 <h1>{{ post.title }}</h1>
                 {% if post.event_title %}
                     <h2>{{ post.event_title }}</h2>

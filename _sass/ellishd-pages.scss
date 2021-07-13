@@ -109,7 +109,7 @@ $header-unit-header-2-line-height: 4.4rem;
 
 // Main page news
 .newest-post-wrapper {
-  max-width: 1040px;
+  max-width: 940px;
   .newest-post {
     width: 100%;
     margin: 0 auto;
@@ -129,12 +129,16 @@ $header-unit-header-2-line-height: 4.4rem;
       background: $primary-bg;
       border-radius: .5em;
       display: inline-block;
+      &.news-new-past {
+        color: $leadlightgrey;
+        background: #EEEEEE;
+      }
     }
     h1 {
       font-weight: 700;
       font-size: 1.5em;
       color: $dark;
-      margin-bottom: 1em;
+      margin-bottom: .5em;
       a {
         color: inherit;
       }
@@ -275,8 +279,12 @@ $header-unit-header-2-line-height: 4.4rem;
 
 // Main page mission statement
 .brand-mission {
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('/assets/img/missionbg.png') no-repeat center center fixed;
+  margin: 10vh auto;
+  width: 90vw;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2)), radial-gradient(circle at 100% 100%, #E8DB7D 3%, #B83374 40%, #8093F1 94%, #72DDF7);
   background-size: cover;
+  border-radius: 2em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 #brand-mission-statement {
@@ -287,11 +295,13 @@ $header-unit-header-2-line-height: 4.4rem;
     text-align: justify;
     color: white;
     margin: 0 30px;
+    text-shadow: $primary 0px 0px 1px;
   }
   h2 {
-    font-size: 23pt;
+    font-size: 2.2em;
     color: white;
     margin-left: 30px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
   }
 }
 
@@ -379,7 +389,7 @@ $header-unit-header-2-line-height: 4.4rem;
           height: 100%;
           top: 0;
           left: 0;
-          opacity: .05;
+          opacity: .10;
         }
       }
     }
@@ -418,6 +428,10 @@ $header-unit-header-2-line-height: 4.4rem;
       &:before {
         background-color: $unihdred;
       }
+    }
+
+    .decorate-link {
+      font-size: 1.1em;
     }
   }
   .institute-caption {

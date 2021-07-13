@@ -14,7 +14,7 @@ header {
 
 .navbar {
   z-index: 99999;
-  border-bottom: 1px solid $lightgrey;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .navbar-brand {
@@ -53,6 +53,7 @@ header {
 }
 
 #navbar-top {
+  background: white;
   #navbarCollapse {
     .active {
       a {
