@@ -26,9 +26,11 @@ $header-unit-header-2-line-height: 4.4rem;
   max-height: 70vh;
   margin: 3em auto;
   // border-radius: 2em;
-  box-shadow: 0px 6px 6px 0 rgba(0, 0, 0, 0.3);
-  background-color: black;
-  background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.5), rgba(255,255,255,.2), rgba(255,255,255,.1), rgba(255,255,255,0)),
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.3);
+  // background-color: black;
+
+  background: 
+              linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.5), rgba(255,255,255,.2), rgba(255,255,255,.1), rgba(255,255,255,0)),
               url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
   // background-color: #FCB0B3;
   // background-size: auto 550px;
@@ -49,6 +51,7 @@ $header-unit-header-2-line-height: 4.4rem;
         // linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), 
         // linear-gradient(90deg, #72DDF7 0%, #FCB0B3 25%, $primary 50%, $primary 60%, #E8DB7D 75%, #72DDF7);
         linear-gradient(90deg, $primary, #8093F1, $primary, #72DDF7);
+      // background-color: $leadgrey;
       font-size: 5em;
       margin-bottom: .2em;
       -webkit-background-clip: text;
@@ -208,7 +211,7 @@ $header-unit-header-2-line-height: 4.4rem;
 
     width: 100%;
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 20%;
     padding: 0;
     box-sizing: border-box;
     border-radius: 20px;
@@ -388,10 +391,15 @@ $header-unit-header-2-line-height: 4.4rem;
   margin: 10vh auto;
   width: 90vw;
   max-width: 1800px;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), radial-gradient(circle at 100% 100%, #E8DB7D 3%, #B83374 40%, #8093F1 94%, #72DDF7);
+  // background: 
+              // linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), 
+              // radial-gradient(circle at 100% 100%, white, $primary 1%, white);
+              // radial-gradient(circle at 120% 120%, $primary 1%, $primary-bg 50%, $primary-bg);
+  background-color: #F5E5E4;
   background-size: cover;
   border-radius: 2em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  // border: 1px solid $primary;
 }
 
 #brand-mission-statement {
@@ -400,28 +408,26 @@ $header-unit-header-2-line-height: 4.4rem;
     margin: 0 30px;
   }
   p {
-    color: white;
+    color: $leaddark;
     font-weight: 500;
     font-size: 16pt;
     text-align: justify;
-    text-shadow: $primary 0px 0px 1px; 
   }
   a {
     display: inline-block;
     margin-top: 30px;
-    color: rgba(255, 255, 255, 0.9);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    color: $leadgrey;
+    border-bottom: 1px solid $leadgrey;
     transition: all .2s ease-in-out;
     &:hover {
-      color: rgba(255, 255, 255, 1.0);
-      border-bottom: 1px solid rgba(255, 255, 255, 1.0);
+      color: $leaddark;
+      border-bottom: 1px solid $leaddark;
     }
   }
   h2 {
     font-size: 2.2em;
-    color: white;
+    color: black;
     margin-left: 30px;
-    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
   }
 }
 
