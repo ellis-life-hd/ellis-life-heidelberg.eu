@@ -570,6 +570,45 @@ $header-unit-header-2-line-height: 4.4rem;
   }
 }
 
+// research page
+#research-wrapper {
+  .research-paragraph {
+    width: 100%;
+    margin: 6em 0;
+    display: flex;
+    flex-direction: row;
+    .research-aim {
+      flex: 1;
+      font-size: 2em;
+      font-weight: 800;
+      color: black;
+    }
+    .research-description {
+      flex: 2;
+      padding: 0 1em;
+      font-size: 1.3em;
+      .research-challenge {
+        color: $leaddark;
+        &::before {
+          content: "Challenge: ";
+          font-weight: 700;
+        }
+      }
+      .research-details {
+        color: $leadgrey;
+      }
+    }
+  }
+  @media screen and (max-width: map-get($grid-breakpoints, "md")) {
+    .research-paragraph {
+      flex-direction: column;
+      .research-description {
+        padding: 0;
+      }
+    }
+  }
+}
+
 // people page
 .people-photowrap {
   height: 100px;
