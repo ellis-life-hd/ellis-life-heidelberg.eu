@@ -5,11 +5,10 @@
                 {% if post.date > site.time %}
                     <p class="news-new">NEW</p>
                 {% else %}
-                    <p class="news-new news-new-past">LATEST</p>
+                    <p class="news-new news-new-past">RECENT</p>
                 {% endif %}
                 <h1>{{ post.title }}</h1>
             </a>
         </div>
     {% endfor %}
 </div>
-<br /><br /><br />
