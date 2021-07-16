@@ -29,10 +29,10 @@ footer a:hover {
 .footer-menu, .footer-head {
   min-width: 100%;
   position: relative;
-  //img {
-  //  -webkit-filter: grayscale(100%);
-  //  filter: grayscale(100%);
-  //}
+  img {
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+  }
 }
 
 .footer-menu {
@@ -45,11 +45,28 @@ footer a:hover {
       // margin-right: 1em;
     }
   }
-  // hr {
-  //   display: inline-block;
-  //   border-color: #fff;
-  //   width: 100px;
-  // }
+  #footer-institutes {
+    display: flex;
+    flex: 1 0 auto;
+    li {
+      display: inline;
+      margin-top: 0;
+      margin: 0 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      .footer-institute-logo {
+        height: 60px;
+        &.footer-dkfz-logo {
+          // required for better vidual alignment
+          padding-top: 10px;
+        }
+      }
+    }
+  }
 }
 
 .footer-head {
