@@ -574,28 +574,44 @@ $header-unit-header-2-line-height: 4.4rem;
 #research-wrapper {
   .research-paragraph {
     width: 100%;
-    margin: 6em 0;
+    margin: 3em 0;
+    padding-bottom: 3em;
     display: flex;
-    flex-direction: row;
-    .research-aim {
-      flex: 1;
-      font-size: 2em;
-      font-weight: 800;
-      color: black;
+    flex-direction: column;
+    hr {
+      width: 100%;
+      margin-bottom: 2em;
+      border: 1px solid #EEE;
+      transition: all 0.2s ease-in-out;
     }
-    .research-description {
-      flex: 2;
-      padding: 0 1em;
-      font-size: 1.3em;
-      .research-challenge {
-        color: $leaddark;
-        &::before {
-          content: "Challenge: ";
-          font-weight: 700;
-        }
+    &:hover {
+      hr {
+        @extend %hr-primary;
       }
-      .research-details {
-        color: $leadgrey;
+    }
+    .research-paragraph-content {
+      display: flex;
+      flex-direction: row;
+      .research-aim {
+        flex: 1;
+        font-size: 2em;
+        font-weight: 800;
+        color: black;
+      }
+      .research-description {
+        flex: 2;
+        padding: 0 1em;
+        font-size: 1.3em;
+        .research-challenge {
+          color: $leaddark;
+          &::before {
+            content: "Challenge: ";
+            font-weight: 700;
+          }
+        }
+        .research-details {
+          color: $leadgrey;
+        }
       }
     }
   }
