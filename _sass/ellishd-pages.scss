@@ -76,6 +76,12 @@ $header-unit-header-2-line-height: 4.4rem;
   #header-main {
     background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.8), rgba(255,255,255,.5), rgba(255,255,255,.1)),
               url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
+    .top-lead {
+      font-size: 2em;
+    }
+    .top-sub {
+      font-size: 1em;
+    }
   }
 }
 
@@ -84,6 +90,12 @@ $header-unit-header-2-line-height: 4.4rem;
     width: 100%;
     background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.8), rgba(255,255,255,.5), rgba(255,255,255,.1)),
               url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
+  }
+  .top-lead {
+    font-size: 3em;
+  }
+  .top-sub {
+    font-size: 1.3em;
   }
 }
 
