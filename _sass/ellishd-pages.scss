@@ -22,8 +22,8 @@ $header-unit-header-2-line-height: 4.4rem;
   // justify-content: center;
   width: map-get($grid-breakpoints, "xl");
   // max-width: 90vw;
-  height: 800px;
-  min-height: 700px;
+  height: 650px;
+  min-height: 650px;
   max-height: 70vh;
   margin: 3em auto;
   // border-radius: 2em;
@@ -71,6 +71,22 @@ $header-unit-header-2-line-height: 4.4rem;
   }
 }
 
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  #header-main {
+    height: 400px;
+    padding-bottom: 40px;
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  .top-lead {
+    font-size: 1.7em !important;
+  }
+  .top-sub {
+    font-size: 0.9em !important;
+  }
+}
 
 @media screen and (max-width: map-get($grid-breakpoints, "l")) {
   #header-main {
@@ -127,18 +143,6 @@ $header-unit-header-2-line-height: 4.4rem;
           line-height: $header-unit-header-2-line-height * $shrink-factor;
         }
       }
-    }
-  }
-}
-
-@media screen and (max-width: map-get($grid-breakpoints, "md")) {
-  #header-main {
-    background-position-y: -15px;
-    height: 400px;
-    padding-bottom: 40px;
-    p {
-      margin-left: 20px;
-      margin-right: 20px;
     }
   }
 }
