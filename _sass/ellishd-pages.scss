@@ -71,36 +71,6 @@ $header-unit-header-2-line-height: 4.4rem;
   }
 }
 
-@media screen and (max-width: map-get($grid-breakpoints, "md")) {
-  #header-main {
-    height: 400px;
-    padding-bottom: 40px;
-    p {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  }
-  .top-lead {
-    font-size: 1.7em !important;
-  }
-  .top-sub {
-    font-size: 0.9em !important;
-  }
-}
-
-@media screen and (max-width: map-get($grid-breakpoints, "lg")) {
-  #header-main {
-    background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.8), rgba(255,255,255,.5), rgba(255,255,255,.1)),
-              url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
-  }
-  .top-lead {
-    font-size: 2em !important;
-  }
-  .top-sub {
-    font-size: 1em !important;
-  }
-}
-
 @media screen and (max-width: map-get($grid-breakpoints, "xl")) {
   #header-main {
     width: 100%;
@@ -112,6 +82,30 @@ $header-unit-header-2-line-height: 4.4rem;
   }
   .top-sub {
     font-size: 1.3em !important;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "lg")) {
+  #header-main {
+    background: linear-gradient(180deg, rgba(255,255,255,1.0), rgba(255,255,255,.8), rgba(255,255,255,.5), rgba(255,255,255,.1)),
+              url('/assets/img/brand-top-43.jpg') center center / cover no-repeat;
+  }
+  .top-lead {
+    font-size: 2.5em !important;
+  }
+  .top-sub {
+    font-size: 1.15em !important;
+  }
+}
+
+@media screen and (max-width: map-get($grid-breakpoints, "md")) {
+  #header-main {
+    height: 400px;
+    padding-bottom: 40px;
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
 }
 
