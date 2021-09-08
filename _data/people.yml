@@ -188,17 +188,7 @@
   websites:
     - Heidelberg University: https://hci.iwr.uni-heidelberg.de/vislearn/
   description: |
-    Ullrich Köthe heads the “Explainable Machine Learning” group at the Interdisciplinary Center for Scientific Computing (IWR).
-    His research focuses on deep learning methodology that strives to establish machine learning as a new way to gain insight
-    and create new knowledge in the sciences. Models that merely make somewhat accurate predictions in a blackbox manner are
-    not good enough for this goal. He and his group thus investigate the design and theoretical foundations of novel network
-    architectures and training algorithms, which provide reliable self-assessment of their uncertainty, emerge humanly
-    interpretable latent representations and are robust against distribution shifts in the data. In particular, they utilise
-    invertible neural networks as an especially promising approach to the efficient and well-founded probabilistic treatment
-    of inverse problems and generative modeling. They demonstrated the utility of these solutions in numerous applications
-    from physics and astronomy to computer vision, biology, and medicine. To achieve its goals, the group puts high emphasis
-    on interdisciplinary work with other fields of science, and on the rapid dissemination of its results via reusable
-    open-source software libraries.
+    We make up the “Explainable Machine Learning” group in the Computer Vision and Learning  Lab. Our work focuses on deep learning methodology that strives to establish machine learning as a new way to gain insight and create new knowledge in the sciences. Models that merely make somewhat accurate predictions in a blackbox manner are not good enough for this goal. We therefore investigate the design and theoretical foundations of novel network architectures and training algorithms, which provide reliable self-assessment of their uncertainty, emerge humanly interpretable latent representations and are robust against distribution shifts in the data. In particular, we utilise invertible neural networks as an especially promising approach to the efficient and well-founded probabilistic treatment of inverse problems and generative modeling. We have demonstrated the utility of these solutions in numerous applications from physics and astronomy to computer vision, biology, and medicine. To achieve our goals, we lay emphasis on interdisciplinary work with other fields of science, and on the rapid dissemination of its results via reusable open-source software libraries.
 - name: Wolfgang Huber
   photo: wh.png
   websites:
