@@ -99,21 +99,19 @@
   websites:
     - Heidelberg University: https://hci.iwr.uni-heidelberg.de/ial
   description: |
-    Hi!
+    We develop machine learning algorithms for image analysis. More specifically, we are interested in principled methods that ingest images or video, and output "structured" predictions, such as the partitioning of an image into its constituent parts, or the tracking of all objects in a video. Most of our applications are in the life sciences; for instance, we segment all cells in a brain or a plant, or track virus components before assembly.
 
-    I develop machine learning algorithms for image analysis. More specifically, I am interested in principled methods
-    that ingest images or video, and output "structured" predictions, such as the partitioning of an image into its
-    constituent parts, or the tracking of all objects in a video. Most of our applications are in the life sciences;
-    for instance, we try and segment all cells in a brain or a plant, or track virus components before assembly.
+    We focus on methods that have a sound mathematical background, such as combinatorial optimization or algebraic graph theory, while being widely applicable and useful in practice. We attach particular importance to methods that can be trained with few examples, or by weak supervision, to empower colleagues from other disciplines to analyze their own data, conveniently. To the same end, we have launched the <a href="https://www.nature.com/articles/s41592-019-0582-9" target="_blank"ilastik program</a> for interactive machine learning that is now headed by Anna Kreshuk.
 
-    My focus is on methods that have a sound mathematical background, such as combinatorial optimization or algebraic
-    graph theory, while being widely applicable and useful in practice. I attach particular importance to methods that
-    can be trained with few examples, or by weak supervision, to empower colleagues from other disciplines to analyze
-    their own data, conveniently. To the same end, I have launched the ilastik program for interactive machine learning
-    (paper) that is now headed by Anna Kreshuk.
+    Personally, I enjoy and feel most privileged to be able to work on things unknown, and to teach the next generation of scientists and engineers. I am proud that several past PhD students continue to serve in research and education, including:
 
-    I enjoy, and feel most privileged, to be able to work on things unknown, and to teach the next generation of
-    scientists and engineers.
+    <a href="https://www.embl.org/groups/kreshuk/" target="_blank"Anna Kreshuk</a>, Group Leader, EMBL
+    <a href="https://mlcv.inf.tu-dresden.de/group.html" target="_blank"Bjoern Andres</a>, Professor, TU Dresden
+    <a href="http://campar.in.tum.de/Main/BjoernMenze" target="_blank"Bjoern Menze</a>, Professor, TU München
+    <a href="https://hpi.de/forschung/fachgebiete/data-analytics-and-computational-statistics.html" target="_blank"Bernhard Renard</a>, Professor, HPI, Potsdam University
+
+Luckily, I am blessed with a fantastic team of researchers who happen to be both extremely gifted and nice.
+
 - name: Jan Korbel
   photo: jk.png
   websites:
