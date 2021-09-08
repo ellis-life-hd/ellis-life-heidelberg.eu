@@ -172,27 +172,10 @@
   websites:
     - DKFZ: https://www.dkfz.de/en/mic/index.php
   description: |
-    **End-to-end Deep Learning Architectures**
+    Our ambition is to improve the ability of machines to analyze and interpret medical image data with a focus on generalizability and uncertainty. 
 
-    Current Medical Image Analysis approaches often comprise a set of separate processing steps such as Registration,
-    Normalization, Segmentation, Feature Extraction and Classification. This project develops techniques for the integration
-    of these components into one end-to-end deep learning architecture. This enables simultaneous optimization of all component
-    w.r.t the ultimate clinical task (e.g. disease classification). 
+    For this purpose our work is focused on deep learning methodology in the context of medical image analysis, with various clinical applications that we are working on together with radiologists, oncologists and radiation therapists. We are also interested in the concept of federated learning and are therefore developing the required methods and the research software infrastructure needed for multi-site projects.
 
-    **Machine Learning-based dMRI Processing**
-
-    This project deals with processing, analysis and visualization of neurological datasets with focus on diffusion-weighted
-    magnetic resonance imaging (dMRI). Major fields of research are the development and implementation of new methods for
-    segmentation or tractography of white matter tracts, as well as tissue segmentation and modelling. Besides the classical
-    methods that are used in this field, we explore the application of machine learning in the context of diffusion-weighted
-    image processing.
-
-    **Validation of Fiber Tractography**
-
-    The quantitative evaluation of fiber tractography is a long-standing challenge for the field that represents an essential
-    prerequisite for widespread application and meaningful interpretation of the approach. In this project we develop
-    phantom-based as well as in-vivo methods to approach this challenge and validate tractography results in large-scale
-    evaluation studies and international challenges.
 - name: Lena Maier-Hein
   photo: lmh.png
   websites:
