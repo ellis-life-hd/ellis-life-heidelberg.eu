@@ -159,15 +159,9 @@
   websites:
     - Heidelberg University: https://saezlab.org/
   description: |
-    The saezlab develops and applies methods to integrate large-scale molecular (‘Omics’) data with mechanistic molecular
-    knowledge into statistical and machine learning methods, and share these tools as free open-source packages. The goal
-    is to acquire a functional understanding of the deregulation of cellular processes in disease and to apply this knowledge
-    to develop novel therapeutics. A major emphasis is to build context-specific models that are both mechanistic (to provide
-    understanding) and predictive (to generate novel hypotheses). To build these models, we combine existing biochemical
-    knowledge with different types of large scale data, including proteomic, transcriptomic and metabolomic data, also at
-    the single-cell and spatially resolved level. We believe that this biological knowledge can be instrumental to move from
-    pure correlation to causation in large data sets, and thereby identify the molecular processes that underlie specific
-    phenomena.
+    Our major interest is the use of machine learning in combination with biological knowledge to analyze big molecular data to better understand and treat disease. We believe that this biological knowledge can be instrumental to move from pure correlation to causation in large data sets, and thereby identify the molecular processes that underlie specific phenomena. Besides developing and applying methods that we share as free <a href="https://saezlab.org/?#tools" target="_blank">open-source packages</a>, we are also involved in the benchmarking of methods, in our own research but also as a crowdsourcing as part of the <a href="https://dreamchallenges.org/" target="_blank">DREAM challenges</a>.
+
+    Our current focus is on the analysis of transcriptomic, metabolomic, and proteomic data sets, increasingly with resolution at the single-cell and spatial level. These data sets come from laboratory experiments as well as from patients suffering an array of conditions ranging from cancer to kidney and cardiovascular disease. We integrate the pertinent biologica knowledge in our meta-resource <a href="http://omnipathdb.org/" target="_blank">OmniPath</a>. We use these data sets and knowledge to build models that are both mechanistic (to provide understanding) and predictive (to generate novel hypotheses). These models, in turn, we use to find disease biomarkers and improved therapeutic opportunities.
 - name: Klaus H. Maier-Hein
   photo: khmh.png
   websites:
