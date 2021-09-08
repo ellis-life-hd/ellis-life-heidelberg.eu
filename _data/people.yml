@@ -198,18 +198,7 @@
   websites:
     - DKFZ: https://www.dkfz.de/en/cami/index.php
   description: |
-    The mission of the division of Computer Assisted Medical Interventions is to improve the quality of interventional
-    healthcare in a data-driven manner. To this end, the multidisciplinary group builds upon principles and knowledge
-    from a diversity of research fields including artificial intelligence (AI), statistics, computer vision, biophotonics
-    and medicine. **Surgical Data Science**, the scientific discipline of enhancing interventional healthcare through
-    capturing, organization, analysis and modeling of data, constitutes the first and central pillar of our research.
-    Committed to the ultimate goal of creating benefit for patients, medical staff and other stakeholders, we place a
-    particular focus on addressing common roadblocks to clinical translation of surgical data science methods such as
-    data sparsity or questions of uncertainty handling. A second pillar is our research in **novel interventional imaging
-    techniques** enabled by deep learning.  We are particularly interested in developing spectral imaging devices into safe
-    and reliable real-time tissue imaging and navigation modalities during interventions. This is achieved with physics-based
-    machine learning concepts that leverage prior knowledge in the form of physical simulations. The division’s profile
-    is complemented by research on the cross-cutting topic of the reliable **validation of AI algorithms**.
+    Medical interventions are among the fundamental pillars of healthcare. Our mission at the Division of Computer Assisted Medical Interventions is to improve the quality of interventional healthcare in a data-driven manner. To this end, our multidisciplinary group builds upon principles and knowledge from a diversity of research fields including artificial intelligence (AI), statistics, computer vision, biophotonics and medicine. We are committed to the ultimate goal of creating benefits for patients and medical staff, and we aim to develop a holistic concept spanning the three significant topics - perception, data interpretation and real-time assistance (see Figure) - and connecting them through a cycle of continuous learning. <strong>Novel spectral imaging techniques enabled by deep learning</strong> are being developed as safe, reliable and real-time imaging modalities during interventions. When interpreting the perceived data in the context of available knowledge, we specifically address common roadblocks to clinical translation such as data sparsity, explainability and uncertainty handling. In close collaboration with our clinical partners, we leverage these methods for the development of context-aware interventional assistance systems. Finally, we place a strong focus on the reliable validation of AI algorithms for clinical purposes.
 - name: Ullrich Köthe
   photo: uk.png
   websites:
