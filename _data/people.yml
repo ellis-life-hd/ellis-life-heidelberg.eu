@@ -36,33 +36,18 @@
   websites:
     - EMBL: https://www.embl.de/research/units/cbb/kreshuk/index.html
   description: |
+    We are a part of the Cell Biology and Biophysics Unit at EMBL. In addition to basic biology research, our colleagues at the Unit develop novel microscopy technologies and theoretical approaches to the interpretation of biological images. Our research is also concerned with microscopy, most broadly with the extraction of objects of biological interest from large, volumetric, challenging datasets. For example, we are interested in semantic and instance segmentation problems in the context of biology, as well as in computational image reconstruction for novel microscopy modalities. Besides methods development, we are very invested in the cause of accessible end-user software, bringing machine learning-based image analysis methods to life scientists without computational expertise. Our group of computer scientists and physicists works in close collaboration with biologists and microscopists, providing - in addition to more generic algorithms - solutions to outstanding real-world problems of cutting-edge life sciences research.
+    
     **Previous and current research**
+    
+    Our group is particularly interested in solving challenging segmentation problems for light or electron microscopy (LM or EM), in 3D and at large scale. Most recently, we have developed methods and tools to segment all cells and nuclei in a juvenile worm of the species Platynereis dumerilii (EM, <a href="https://www.cell.com/cell/fulltext/S0092-8674(21)00876-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS009286742100876X%3Fshowall%3Dtrue" target="_blank">Vergara et al., Cell 2021</a>), as well as in various plant organs and tissues (LM, <a href="https://doi.org/10.7554/eLife.57613" target="_blank">Wolny, Cerrone et al., eLife 2020</a>). Here, we combined bottom-up deep learning approaches with top-down biological priors to achieve very accurate segmentations also for volumes of high intrinsic variability, in presence of substantial noise and with limited training data.
 
-    Machine learning is advancing the state of the art in image analysis more rapidly than ever before:
-    for many problems in natural image analysis, automated methods are now approaching parity with humans.
-    One of the major advantages of learning-based approaches is their general applicability: tailoring to
-    a particular problem is performed by providing suitable training data, while the core of the algorithm
-    remains unchanged. To bring these methods to members of the life science community without computer
-    vision expertise, we have developed a toolkit for interactive learning and segmentation (ilastik).
-
-    While the algorithms in ilastik generalise to provide user-friendly solutions to a wide array of
-    image analysis problems, the most challenging bioimage datasets require a tailored approach. Our group
-    is particularly interested in solving challenging segmentation problems for light or electron microscopy
-    (LM or EM), in 3D and at large scale. Most recently, we have developed methods and tools to segment all
-    cells and nuclei in a juvenile worm of the species Platynereis dumerilii (EM, Vergara et al., bioRxiv
-    2020), as well as in various plant organs and tissues (LM, Wolny, Cerrone et al., eLife 2020).
-
+    One of the major advantages of learning-based computer vision approaches is their general applicability: tailoring to a particular problem is performed by providing suitable training data, while the core of the algorithm remains unchanged. To bring these methods to members of the life science community without computer vision expertise, we have developed a toolkit for interactive learning and segmentation (<a href="https://www.nature.com/articles/s41592-019-0582-9" target="_blank">ilastik</a>). The development of ilastik started in Fred Hamprecht’s group at the University of Heidelberg and now continues with us at EMBL, providing an easy gateway to machine learning for tens of thousands of users.
+    
     **Future projects and goals**
+    
+    All machine learning algorithms require user guidance at the training stage, but deep learning – the driver of the current computer vision revolution – is even more annotation hungry. This problem is especially acute in biological imaging, where annotation of ground-truth data cannot easily be outsourced to non-experts, and changes in experimental conditions often require retraining. Besides the annotation burden, the training process itself depends upon non-trivial expertise in the choice and tuning of hyperparameters. Our group is currently working on methods and training strategies that would reduce the requirements on the amount of training data, which we hope to incorporate into ilastik (<a href="https://arxiv.org/abs/2103.14572" target="_blank">Wolny et al., arxiv, 2021</a>). We are also interested in creative combinations of deep learning and microscopy (<a href="https://www.nature.com/articles/s41592-021-01136-0" target="_blank">Wagner, Beuttenmuelluer et al., Nature Methods 2021</a>) and learning-based analysis of morphology.
 
-    All machine learning algorithms require user guidance at the training stage, but deep learning – the
-    driver of the current computer vision revolution – is even more annotation hungry. This problem is
-    especially acute in biological imaging, where annotation of ground-truth data cannot easily be outsourced
-    to non-experts, and changes in experimental conditions can require retraining. Besides the annotation burden,
-    the training process itself depends upon non-trivial expertise in the choice and tuning of hyperparameters.
-    Our group is currently working on methods and training strategies that would reduce the requirements on the
-    amount of training data, which we hope to incorporate into ilastik. We are also interested in creative
-    combinations of deep learning and microscopy (Wagner, Beuttenmuelluer et al., bioRxiv 2020) and learning-based
-    analysis of morphology.
 - name: Carsten Rother
   role: co-director
   photo: cr.png
