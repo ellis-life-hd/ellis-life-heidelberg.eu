@@ -18,7 +18,7 @@
     for technical and biological confounding factors. A second aim is approaches for dimensionality
     reduction that allow for integrating data across omics modalities, profiled across pace and time. 
 
-    Our methodological research aims tie in with experimental collaborations, in the context of which
+    Our methodological research aims to tie in with experimental collaborations, in the context of which
     we develop methods to fully exploit large-scale datasets obtained using the most recent profiling
     technologies. Via international collaborations and networks we have established population-scale
     genetic and molecular data resources that allow for unravelling gene regulatory dependencies with
@@ -27,8 +27,7 @@
     in basic biology as well as in disease contexts.
 
     The ability to fully exploit novel algorithms and machine learning, access to large and
-    well-integrated datasets is indispensable. To this end, we are coordinating the German Human-Genome
-    Phone Archive (http://www.ghga.de), a major national network that seeks to bring together omics
+    well-integrated datasets is indispensable. To this end, we are coordinating the <a href="https://ghga.dkfz.de/" target="_blank">German Human Genome-Phenome Archive</a> (GHGA), a major national network that seeks to bring together omics
     variation data across German and Europe and will deliver key opportunities for federated learning
     and access to large patient datasets in the future. 
 - name: Anna Kreshuk
