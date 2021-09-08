@@ -203,38 +203,13 @@
   websites:
     - EMBL: https://www.embl.de/research/units/genome_biology/huber/
   description: |
-    A central challenge of biomedicine is to understand how the biological systems that underlie healthy life and disease
-    react to variations in their makeup (genetic variation, for example) or their environment (drugs, for example). Our
-    group brings together researchers from quantitative disciplines – mathematics, statistics, physics and computer science
-    – and from different fields of biology and medicine.
-
-    We employ statistics and machine learning to discover patterns in large datasets, understand mechanisms, and act upon
-    predictive and causal relationships to, ultimately, address questions in personal genomics and molecular medicine. More
-    specifically, we use large-scale data acquisition and quantitative modelling of phenotypes and molecular profiles,
-    systematic perturbations (such as drugs or high-throughput genetics) and computational analysis of non-linear, epistatic
-    interaction networks.
-
-    Genomics and other molecular profiling technologies have resulted in increasingly detailed biology-based understanding
-    of human disease. The next challenge is using this knowledge to engineer treatments and cures. We integrate observational
-    data, for example from large-scale sequencing and molecular profiling, with interventional data – systematic genetic or
-    chemical screens – to reconstruct a fuller picture of the underlying causal relationships and actionable intervention
-    points. A fascinating example is our work on genotype-specific vulnerability and resistance of tumours to targeted drugs
-    in our precision oncology project.
-
-    As we engage with new data types, our aim is to develop high-quality computational and statistical methods of wide
-    applicability. We consider the release and maintenance of scientific software an integral part of scientific publishing,
-    and we contribute to the Bioconductor Project, an open source software collaboration to provide tools for the analysis
-    and study of high-throughput genomic data. An example is our DESeq2 package for analysing count data from high-throughput
-    sequencing.
-
-    **Future projects and goals**
-
-    We aim to develop the computational techniques needed to analyse exciting biological data types:
-
-     - Clinical multi-omics: we work with clinical researchers to develop predictive assays and algorithms.
-     - Many powerful mathematical ideas exist but are difficult to access. We translate them into practical methods and
-       software that make a real difference to biomedical researchers, an approach we term ‘translational statistics’.
-     - Quantitative proteomics and in vivo drug-target mapping.
-     - Single-cell and single-molecule omics.
-     - High-throughput multidimensional phenotyping: mapping gene-gene and gene-drug interactions through computational
-       image analysis of cell and tissue microscopy, machine learning and mathematical modelling.
+    Biology is now a science of big data, but the data are often heterogeneous, noisy, incomplete, replete with biases, poorly calibrated (“batch effects”), and indirect—what is being measured and its resolution is contingent on current technology rather than what would be desirable. With our work, we try to address these challenges, driven by the motivation to better empower machine learning and statistics for biotechnological experimentation and observation, and for scientific discovery in biology and biomedicine.
+    
+    We aim to develop and improve new data generating technologies in biological research, such as single cell omics, imaging, mass spectrometry, high-throughput genetic and chemical perturbation assays, by powering them with the best statistical and machine learning methods. This includes inference—reasoning with uncertainty, providing optimal estimates or making optimal decisions based on incomplete, noisy or overwhelming data—as well as data exploration, visualization and discovery: helping scientists examine large, complex datasets that they could not grasp otherwise.
+    
+    We are interested in new datasets of unprecedented scope and quality. To this end, we work with biomedical researchers who are assembling such experiments and studies, and together we optimize all phases from experiment/study design, data management, quality control, to exploitation.
+    
+    We believe that good science is open science, and we consider the release and maintenance of re-usable, interoperable, collaborative scientific software an integral part of computational and statistical method development, and of scientific publishing more generally. We contribute to the <a href="http://www.bioconductor.org/">Bioconductor Project</a>, an open source software collaboration to provide tools for the analysis and study of high-throughput genomic data.
+    
+    Together with Susan Holmes, Huber co-authored the textbook “<a href="https://www.huber.embl.org/msmb/">Modern Statistics for Modern Biology</a>” (Cambridge University Press, ISBN 9781108705295)
+    
