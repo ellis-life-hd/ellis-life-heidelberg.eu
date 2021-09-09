@@ -508,6 +508,11 @@ $header-unit-header-2-line-height: 4.4rem;
     font-size: 10pt;
     color: $dark;
   }
+  .people-description {
+    img {
+      width: 100%;
+    }
+  }
   &.actionable-photowrap:hover {
     background-color: lighten($lightgrey, 5%);
   }
