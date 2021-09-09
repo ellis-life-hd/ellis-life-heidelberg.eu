@@ -658,7 +658,13 @@ $header-unit-header-2-line-height: 4.4rem;
 
 .people-description {
   img {
+    margin-top: 30px;
+    margin-bottom: 10px;
     width: 100%;
+  }
+  figcaption {
+    font-size: 12pt;
+    text-align: center;
   }
 }
 
