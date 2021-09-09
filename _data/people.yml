@@ -47,7 +47,8 @@
     **Future projects and goals**
     
     All machine learning algorithms require user guidance at the training stage, but deep learning – the driver of the current computer vision revolution – is even more annotation hungry. This problem is especially acute in biological imaging, where annotation of ground-truth data cannot easily be outsourced to non-experts, and changes in experimental conditions often require retraining. Besides the annotation burden, the training process itself depends upon non-trivial expertise in the choice and tuning of hyperparameters. Our group is currently working on methods and training strategies that would reduce the requirements on the amount of training data, which we hope to incorporate into ilastik (<a href="https://arxiv.org/abs/2103.14572" target="_blank">Wolny et al., arxiv, 2021</a>). We are also interested in creative combinations of deep learning and microscopy (<a href="https://www.nature.com/articles/s41592-021-01136-0" target="_blank">Wagner, Beuttenmuelluer et al., Nature Methods 2021</a>) and learning-based analysis of morphology.
-
+    
+    ![PlantSeg image](/assets/img/ak_research1.jpg)
 - name: Carsten Rother
   role: co-director
   photo: cr.png
