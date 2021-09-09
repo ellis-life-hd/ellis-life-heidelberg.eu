@@ -60,6 +60,9 @@
   websites:
     - Heidelberg University: https://hci.iwr.uni-heidelberg.de/compvis
   description: |
+    
+    The Ommer lab at the Interdisciplinary Center for Scientific Computing (IWR) conducts research in Computer Vision and Machine Learning. In particular, we are interested in all aspects of scene understanding, visual synthesis, deep metric and representation learning, and image retrieval. Since annotation of training data is costly, we especially develop self-supervised and weakly supervised approaches to learning. Moreover, the inferred models should not only be powerful representations of our world, but they should also be interpretable by a user. Rather than presenting the user with a black box, we consequently seek an interpretable model that draws conclusions from the input data. We have been developing these methods in the context of long-term interdisciplinary collaborations. Within the life sciences we are particularly interested in non-invasive diagnostic tools for the neurosciences that can be efficiently integrated into clinical or scientific practice since they require little to no supervision by the expert users.
+    
     **Visual Synthesis and Interpretable AI with Disentangled Representations**
 
     Deep learning has significantly improved the expressiveness of representations. However, present research
