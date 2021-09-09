@@ -508,11 +508,6 @@ $header-unit-header-2-line-height: 4.4rem;
     font-size: 10pt;
     color: $dark;
   }
-  .people-description {
-    img {
-      width: 100%;
-    }
-  }
   &.actionable-photowrap:hover {
     background-color: lighten($lightgrey, 5%);
   }
@@ -659,6 +654,12 @@ $header-unit-header-2-line-height: 4.4rem;
 .people-below {
   font-size: 11pt !important;
   font-weight: 600;
+}
+
+.people-description {
+  img {
+    width: 100%;
+  }
 }
 
 .people-tile {
